@@ -12,13 +12,13 @@ namespace csharp_inmultire_matrici
        
         static void Main(string[] args)
         {        
-            Console.Write("Enter p:");
+            Console.Write("Enter p:"); // Enter the lines for A Matrix
             int p = int.Parse(Console.ReadLine());
 
-            Console.Write("Enter m:");
+            Console.Write("Enter m:"); //Enter the Columns for A Matrix, also represent the Lines for B Matrix
             int m = int.Parse(Console.ReadLine());
             
-            Console.Write("Enter q:");
+            Console.Write("Enter q:"); // Enter the Columns for B Matrix
             int q = int.Parse(Console.ReadLine());
 
             int[,] a = new int[p, m];
